@@ -22,7 +22,7 @@
 
 <p>
   <% for (int i = 1; i <= cpt; i++) { %>
-        <% for ( int f = i ; f <= i ; f--) { %>
+        <% for ( int f = i ; f <= 0 ; f--) { %>
         <%= "*" %>
     <% } %>
     <br>
@@ -36,7 +36,7 @@
 
 <p>
   <% for (int i = 1; i <= cpt; i++) { %>
-        <% for ( int f = 1 ; f <= 0 ; f++) { %>
+        <% for ( int f = 1 ; f <=cpt ; f++) { %>
         <%= "*" %>
     <% } %>
     <br>
