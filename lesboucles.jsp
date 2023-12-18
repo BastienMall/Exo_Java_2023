@@ -83,7 +83,7 @@
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la droite</p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
 
-<%-- Les espace ne sont pas reconnu %-->
+<%-- les espaces ne sont pas reconnus --%>
 
 <p>
   <% for (int i = 0 ; i < cpt; i++) { %> 
