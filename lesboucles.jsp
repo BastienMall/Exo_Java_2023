@@ -21,9 +21,8 @@
     <%int cpt = Integer.parseInt(valeur); %>
 
     <p>
-  <% int square = cpt * cpt; %>
-  <% for (int i = 1; i <= square; i++) { %>
-    <%= "*" %>
+  <% for (int i = 1; i <= cpt; i++) { %>
+    <%= i * "*" %>
   <% } %>
 </p>
 
