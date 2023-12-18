@@ -21,30 +21,31 @@
     <%int cpt = Integer.parseInt(valeur); %>
 
 <p>
-  <% for (i = 0; i < cpt ; i++) { %> 
+  <% for (int i = 0 ; i < cpt; i++) { %> 
 
-      <% for(f = cpt; f > i + 1; f-- ) { %> 
-          <%= "&nbsp" %> 
-      <% } %> 
+    <% for ( int f = cpt ; f > i + 1; f--) { %>
+        <%=  "&nbsp"  %> 
+    <% } %>
 
-      <% for(l = 0; l <= i; l++ ) { %> 
-          <%= "* " %> 
-      <% } %> 
-<br> 
-<% } %> 
+    <% for ( int f = 0 ; f <= i ; f++) { %>
+        <%=  "*"  %> 
+    <% } %>
 
-  <% for (i = cpt - 1; i > 0; i--) { %> 
-      <% for(f = f-1; f >= i; f-- ) { %> 
-          <%= "&nbsp" %> 
-      <% } %> 
+    <br>
+  <% } %>
 
-      <% for(l = 0; l < i; l++ ) { %> 
-      <%=  "* " %> 
-      <% } %> 
+  <% for (int i = 0 ; i < cpt; i++) { %> 
 
-<br>
-  <% } %> 
-  <% } %> 
+    <% for ( int f = cpt ; f > i + 1; f--) { %>
+        <%=  "&nbsp"  %> 
+    <% } %>
+
+    <% for ( int f = 0 ; f <= i ; f++) { %>
+        <%=  "*"  %> 
+    <% } %>
+
+    <br>
+  <% } %>
 </p>
 
 <h2>Exercice 1 : Le carré d'étoiles</h2>
