@@ -24,7 +24,7 @@
   <% for (int i = 0 ; i < cpt; i++) { %> 
 
     <% for ( int f = cpt ; f > i + 1; f--) { %>
-        <%=  "       "  %> 
+        <%=  "      test "  %> 
     <% } %>
 
     <% for ( int f = 0 ; f <= i ; f++) { %>
