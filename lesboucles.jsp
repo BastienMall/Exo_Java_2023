@@ -21,10 +21,8 @@
     <%int cpt = Integer.parseInt(valeur); %>
 
 <p>
-  <% for (int i = 1; i <= cpt; i++) { %>
-        <% for ( int f = cpt ; f >= 1 ; f--) { %>
+  <% for (int i = cpt ; i >= 1; i--) { %> 
         <%= "*" %>
-    <% } %>
     <br>
   <% } %>
 </p>
