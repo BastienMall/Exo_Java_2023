@@ -23,11 +23,11 @@
 <p>
   <% for (int i = 1 ; i <= cpt; i++) { %> 
 
-    <% for ( int f = 1 ; f < cpt - i ; f++) { %>
+    <% for ( int f = 0 ; f > cpt - i ; f++) { %>
         <%=  " "  %> 
     <% } %>
 
-    <% for ( int f = 1 ; f < i ; f++) { %>
+    <% for ( int f = 0 ; f > i ; f++) { %>
         <%=  "*"  %> 
     <% } %>
 
