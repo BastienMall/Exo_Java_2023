@@ -17,7 +17,11 @@
     <% String valeur3 = request.getParameter("valeur3"); %>
 
     <%-- Vérification de la condition entre les trois valeurs --%>
-    
+    <% if (valeur1 != null && valeur2 != null && valeur3 != null) { %>
+        <%-- Conversion des valeurs en entiers pour la comparaison --%>
+        <% int intValeur1 = Integer.parseInt(valeur1); %>
+        <% int intValeur2 = Integer.parseInt(valeur2); %>
+        <% int intValeur3 = Integer.parseInt(valeur3); %>
    
     
 <h2>Exercice 1 : Comparaison 1</h2>
@@ -26,15 +30,8 @@ A, B et C et dites nous si la valeur de C est comprise entre A et B.</br>
 Exemple :</br>
 A = 10</br>
 B = 20</br>
-C = 15</br>
-Oui C est compris entre A et B</p>
+C = 15</br></p>
 
-<% if (valeur1 != null && valeur2 != null && valeur3 != null) { %>
-        <%-- Conversion des valeurs en entiers pour la comparaison --%>
-        <% int intValeur1 = Integer.parseInt(valeur1); %>
-        <% int intValeur2 = Integer.parseInt(valeur2); %>
-        <% int intValeur3 = Integer.parseInt(valeur3); %>
-        
         <%-- Condition if pour comparer les valeurs --%>
         <% if (intValeur1 < intValeur3 && intValeur2 > intValeur3) { %>
             <p>Oui , C est compris entre A et B </p>
@@ -46,6 +43,26 @@ Oui C est compris entre A et B</p>
 
 <h2>Exercice 2 : Pair ou Impair ?</h2>
 <p>Écrivez un programme pour vérifier si un nombre est pair ou impair en utilisant une structure if</p>
+
+<%-- Condition if pour comparer les valeurs impairs / pair --%>
+        <% if ((intValeur1 % 2) == 0 ) { %>
+            <p> Valeur1 est pair  </p>
+        <% } else { %>
+            <p> Valeur1 est impair </p>
+        <% } %>
+
+        <% if ((intValeur2 % 2) == 0 ) { %>
+            <p> Valeur1 est pair  </p>
+        <% } else { %>
+            <p> Valeur1 est impair </p>
+        <% } %>
+
+        <% if ((intValeur3 % 2) == 0 ) { %>
+            <p> Valeur1 est pair  </p>
+        <% } else { %>
+            <p> Valeur1 est impair </p>
+        <% } %>
+
 
 <% } %>
 <p><a href="index.html">Retour au sommaire</a></p>
