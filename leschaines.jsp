@@ -26,21 +26,24 @@
     <% String sousChaine = chaine.substring(2, 6); %>
     <p>Une sous chaine de votre texte : <%= sousChaine %></p>
 
-    <%-- Recharche de la lettre "e" --%>
-    <% char recherche = 'e';    
-       int count = 0;
-
-for (int i = 0; i < chaine.length(); i++) {
-    if (chaine.charAt(i) == recherche) {
-        count++;
-    }
-}
-%>
-    <p>Votre premier "e" est en : <%= count %></p>
-
+    
     
 <h2>Exercice 1 : Combien de 'e' dans notre chaine de charactère ?</h2>
 <p>Ecrire un programme pour compter le nombre de lettre e dans votre chaine de charactères</p>
+
+<%-- Recherche de la lettre "e" --%>
+    <% char recherche = 'e';    
+       int count = 0;
+
+    for (int i = 0; i < chaine.length(); i++) {
+        if (chaine.charAt(i) == recherche) {
+            count++;
+        }
+    }
+    %>
+    <p>Votre premier "e" est en : <%= count %></p>
+
+
 
 <h2>Exercice 2 : Affichage verticale</h2>
 <p>Ecrire le programme pour afficher le texte en vertical</br>
