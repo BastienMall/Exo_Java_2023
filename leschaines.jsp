@@ -28,7 +28,8 @@
 
     <%
         String[] words = chaine.split(" ");
-        for (int i = 0; i < words.length(); i++) { %>
+        int max_word = words.count()
+        for (int i = 0; i < max_word; i++) { %>
             <%= words[i] %> </br>
     <% } %>
 
