@@ -28,8 +28,8 @@
 
     <%
         String[] words = chaine.split(" ");
-        for (String word : words) {
-            word
+        for (int i = 0; i < words.length(); i++) {
+            <%= words[i] %> </br>
         }
     %>
 
