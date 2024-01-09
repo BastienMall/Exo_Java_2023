@@ -26,6 +26,11 @@
     <% String sousChaine = chaine.substring(2, 6); %>
     <p>Une sous chaine de votre texte : <%= sousChaine %></p>
 
+<%    for (int i = 0; i < chaine.length(); i++) {
+        char Extrait = chaine.charAt(i)  %>
+        <p> <%= Extrait %> </p>
+<% } %>
+
     
     
 <h2>Exercice 1 : Combien de 'e' dans notre chaine de charactère ?</h2>
@@ -41,7 +46,7 @@
         }
     }
     %>
-    <p>Votre premier "e" est en : <%= count %></p>
+    <p>Le nombre de "e" au sein de la chaine est de : <%= count %></p>
 
 
 
