@@ -28,7 +28,7 @@
 
     <%-- Recharche de la lettre "e" --%>
     <% char recherche = 'e'; 
-       int position = chaine.indexOf(recherche); %>
+       int position = chaine.indexOf(recherche).count(); %>
     <p>Votre premier "e" est en : <%= position %></p>
 
     
