@@ -27,7 +27,7 @@
     <p>Une sous chaine de votre texte : <%= sousChaine %></p>
 
 <%    for (int i = 0; i < chaine.length(); i++) {
-        char Extrait = chaine.charAt(i)  %>
+        char Extrait = chaine.charAt(i);  %>
         <p> <%= Extrait %> </p>
 <% } %>
 
