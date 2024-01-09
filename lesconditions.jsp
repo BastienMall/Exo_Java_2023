@@ -14,7 +14,7 @@
 <%-- Récupération des valeurs --%>
     <% String valeur1 = request.getParameter("valeur1"); %>
     <% String valeur2 = request.getParameter("valeur2"); %>
-    <% String valeur2 = request.getParameter("valeur3"); %>
+    <% String valeur3 = request.getParameter("valeur3"); %>
 
     <%-- Vérification de la condition entre les trois valeurs --%>
     <% if (valeur1 != null && valeur2 != null && valeur3 != null) { %>
