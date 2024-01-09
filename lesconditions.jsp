@@ -6,10 +6,10 @@
 <body bgcolor=white>
 <h1>Exercices sur les conditions</h1>
 <form action="#" method="post">
-    <p>Saisir la valeur A : <input type="text" id="inputValeur" name="valeur1">
-    <p>Saisir la valeur B : <input type="text" id="inputValeur" name="valeur2">
-    <p>Saisir la valeur C : <input type="text" id="inputValeur" name="valeur3">
-    <p><input type="submit" value="Afficher">
+    <p>Saisir la valeur A : <input type="text" id="inputValeur" name="valeur1"> </p>
+    <p>Saisir la valeur B : <input type="text" id="inputValeur" name="valeur2"> </p>
+    <p>Saisir la valeur C : <input type="text" id="inputValeur" name="valeur3"> </p>
+    <p><input type="submit" value="Afficher"> </p>
 </form>
 <%-- Récupération des valeurs --%>
     <% String valeur1 = request.getParameter("valeur1"); %>
