@@ -28,10 +28,9 @@
 
     <%
         String[] words = chaine.split(" ");
-        for (int i = 0; i < words.length(); i++) {
+        for (int i = 0; i < words.length(); i++) { %>
             <%= words[i] %> </br>
-        }
-    %>
+    <% } %>
 
     
 <h2>Exercice 1 : Combien de 'e' dans notre chaine de charactère ?</h2>
