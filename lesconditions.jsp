@@ -46,21 +46,21 @@ C = 15</br></p>
 
 <%-- Condition if pour comparer les valeurs impairs / pair --%>
         <% if ((intValeur1 % 2) == 0 ) { %>
-            <p> <% valeur1 %> est pair  </p>
+            <p> La valeur A est pair  </p>
         <% } else { %>
-            <p> <% valeur1 %> est impair </p>
+            <p> La valeur A est impair </p>
         <% } %>
 
         <% if ((intValeur2 % 2) == 0 ) { %>
-            <p> <% valeur2 %> est pair  </p>
+            <p> La valeur B est pair  </p>
         <% } else { %>
-            <p> <% valeur2 %> est impair </p>
+            <p> La valeur B est impair </p>
         <% } %>
 
         <% if ((intValeur3 % 2) == 0 ) { %>
-            <p> <% valeur3 %> est pair  </p>
+            <p> La valeur C est pair  </p>
         <% } else { %>
-            <p> <% valeur3 %> est impair </p>
+            <p> La valeur C est impair </p>
         <% } %>
 
 
