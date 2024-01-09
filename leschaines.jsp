@@ -30,7 +30,7 @@
     <% char recherche = 'e';    
        int count = 0;
 
-for (int i = 0; i < someString.length(); i++) {
+for (int i = 0; i < chaine.length(); i++) {
     if (chaine.charAt(i) == recherche) {
         count++;
     }
