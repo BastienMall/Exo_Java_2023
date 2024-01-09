@@ -26,6 +26,13 @@
     <% String sousChaine = chaine.substring(2, 6); %>
     <p>Une sous chaine de votre texte : <%= sousChaine %></p>
 
+    <%
+        String[] words = chaine.split(" ");
+        for (String word : words) {
+            word
+        }
+    %>
+
     
 <h2>Exercice 1 : Combien de 'e' dans notre chaine de charactère ?</h2>
 <p>Ecrire un programme pour compter le nombre de lettre e dans votre chaine de charactères</p>
